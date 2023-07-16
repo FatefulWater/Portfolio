@@ -70,7 +70,7 @@ const projects = [
   {
     name: "Animazing",
     description:
-      "This is an E-commerce site that I have developed with a working Backend that can be used to get, post, update and delete products and users. It also has a working login and register function. for the Frontend I took inspiration from Solaris Japan, but i simplified it since it was more focused on the Backend.",
+      "This is an E-commerce site that I have developed with a working Backend that can be used to get, post, update and delete products and users. It also has a working login and register function. for the Frontend I took inspiration from Solaris Japan, but i simplified it since it was more focused on the Backend. Please notice that I host the Backend on Render.com, if you don't see any Product please wait 5 minutes and come back to the site (that should work than).",
     tags: [
       {
         name: "react",
@@ -91,11 +91,12 @@ const projects = [
     ],
     image: animazing,
     source_code_link: "https://github.com/FatefulWater/Animazing",
+    website_link: "https://animazing1.de/"
   },
   {
     name: "Admin Dashboard",
     description:
-      "This is an Admin-Dashboard that is primarily focused on Frontend, it has a light- and dark Mode with some cool features like a world view that shows where the most user are coming from with a large Data set. It is primarily a Frontend Project with some work from the Backend.",
+      "This is an Admin-Dashboard that is primarily focused on Frontend, it has a light- and dark Mode with some cool features like a world view that shows where the most user are coming from with a large Data set. It is primarily a Frontend Project with some work from the Backend. Please notice that I host the Backend on Render.com, if you don't see any Data please wait 5 minutes and come back to the site (that should work than).",
     tags: [
       {
         name: "react",
@@ -112,6 +113,7 @@ const projects = [
     ],
     image: admindashboard,
     source_code_link: "https://github.com/FatefulWater/Admin-Dashboard",
+    website_link: "	http://admin-dashboard-portfolio.online"
   },
 ];
 

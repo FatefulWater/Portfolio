@@ -11,7 +11,8 @@ import redux from "./tech/redux.png";
 import github from "./github.png";
 import animazing from "./Animazing.png";
 import admindashboard from "./Admin-Dashboard.png";
-import logo from "./logo.png"
+import logo from "./logo.png";
+import homeicon from "./homeicon.png";
 
 export {
   cSharp,
@@ -26,5 +27,6 @@ export {
   github,
   animazing,
   admindashboard,
-  logo
+  logo,
+  homeicon
 };
