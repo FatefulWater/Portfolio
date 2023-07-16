@@ -20,9 +20,9 @@ const Character = ({ isMobile }) => {
       />
       <primitive
         object={character.scene}
-        scale={isMobile ? 0.001 : 0.005}
-        position={isMobile ? [0, -5, -1.5] : [0, -3.25, -1]}
-        rotation={[-0.01, 1.25, 0]}
+        scale={isMobile ? 0.005 : 0.007}
+        position={isMobile ? [0, -4.5, 0] : [0, -3.25, 0]}
+        rotation={[0, 1.25, 0]}
       />
     </mesh>
   )

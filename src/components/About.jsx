@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { styles } from "../styles";
 import CharacterCanvas from "./canvas/Character";
 
@@ -11,31 +10,13 @@ const About = () => {
           <div className="w-1 sm:h-80 h-40 yellow-gradient" />
         </div>
 
-        <div>
-          <h1 className="text-6xl">Hi, I'm <span className={`${styles.HeaderText}`}> Enrico Renner</span></h1>
+        <div className="">
+          <h1 className="text-5xl">Hi, I'm <span className={`${styles.HeaderText}`}> Enrico Renner</span></h1>
           <p className={`${styles.SubText}`}> I'm a self-taught Software Developer with a big affinity for IT, Technology and Science. if your looking for a Software Developer, let me know.</p>
         </div>
       </div>
 
       <CharacterCanvas />
-
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div 
-              animate={{
-                y: [0, 24, 0]
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop"
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
-        </a>
-      </div>
     </section>
   )
 }
